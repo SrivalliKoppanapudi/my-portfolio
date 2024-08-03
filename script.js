@@ -9,6 +9,10 @@ iconEl.onclick=()=>{
     header.classList.toggle("sticky");
 
 }
+linksEl.onclick=()=>{
+    linksEl.classList.toggle("active")
+    iconEl.classList.toggle("fa-x")
+}
 var typed=new Typed(".text",{
     strings:["WEB DEVELOPER","FRONTEND EXPERTISE"],
     typeSpeed:100,
